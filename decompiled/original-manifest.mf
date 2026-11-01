@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: cybervillage
+Specification-Vendor: CyberVillage Team
+Specification-Version: 1
+Implementation-Title: CyberVillage-src-1.3.0
+Implementation-Version: 1.4.0
+Implementation-Vendor: CyberVillage Team
+Implementation-Timestamp: 2026-07-19T08:22:09-0700
+
