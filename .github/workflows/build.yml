@@ -35,8 +35,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan inspection/decompiled-original
           git rm -rf . >/dev/null 2>&1 || true
-          cp -R decompiled .
-          cp decompiled-file-list.txt .
+          cp decompiled-file-list.txt ./decompiled-file-list.txt
           git add decompiled decompiled-file-list.txt
           git commit -m "Add decompiled original source for port inspection"
           git push --force origin HEAD:inspection/decompiled-original
